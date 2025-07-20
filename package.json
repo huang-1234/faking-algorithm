@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "test": "vitest",
     "build": "rspress build",
     "dev": "rspress dev",
     "preview": "rspress preview"
@@ -11,6 +12,7 @@
     "rspress": "^1.40.2"
   },
   "devDependencies": {
-    "@types/node": "^18.11.17"
+    "@types/node": "^18.11.17",
+    "vitest": "^3.2.4"
   }
 }
