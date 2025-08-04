@@ -12,7 +12,8 @@
     "rspress": "^1.40.2"
   },
   "devDependencies": {
-    "@types/node": "^18.11.17",
-    "vitest": "^3.2.4"
+    "@types/node": "20.19.9",
+    "vitest": "3.2.4",
+    "ts-node": "10.9.2"
   }
 }
