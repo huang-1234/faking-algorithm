@@ -1,12 +1,9 @@
 // src/App.tsx
 import React, { useState, useEffect, useRef } from 'react';
 import { Table, Button, Select, Card, Row, Col } from 'antd';
-import ReactJson from 'react-json-view';
-import { createRoot } from 'react-dom/client';
-import { createIntl } from 'react-intl';
+import ReactJson from 'react-json-view'
 import Graphin, { Behaviors } from '@antv/graphin';
 import '@antv/graphin/dist/index.css';
-import produce from 'immer';
 
 const { ZoomCanvas, DragCanvas } = Behaviors;
 

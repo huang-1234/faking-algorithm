@@ -9,7 +9,11 @@
     "preview": "rspress preview"
   },
   "dependencies": {
-    "rspress": "^1.40.2"
+    "antd": "5.26.7",
+    "axios": "1.11.0",
+    "@antv/graphin": "3.0.5",
+    "react-json-view": "1.21.3",
+    "rspress": "1.40.2"
   },
   "devDependencies": {
     "@types/node": "20.19.9",
