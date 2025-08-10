@@ -3,14 +3,21 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "test": "vitest",
     "build": "rspress build",
     "dev": "rspress dev",
     "preview": "rspress preview"
   },
   "dependencies": {
-    "rspress": "^1.40.2"
+    "antd": "5.26.7",
+    "axios": "1.11.0",
+    "@antv/graphin": "3.0.5",
+    "react-json-view": "1.21.3",
+    "rspress": "1.40.2"
   },
   "devDependencies": {
-    "@types/node": "^18.11.17"
+    "@types/node": "20.19.9",
+    "vitest": "3.2.4",
+    "ts-node": "10.9.2"
   }
 }
